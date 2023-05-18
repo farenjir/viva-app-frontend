@@ -1,0 +1,112 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    :root {
+      --color-primary: 255 115 179;
+      --color-secondary: 111 114 185;
+     
+    }
+  }
+
+  .custom-file-input {
+    display: inline-block;
+    position: relative;
+    color: #533e00;
+}
+.custom-file-input input {
+    visibility: hidden;
+    width: 100px;
+}
+.custom-file-input:before {
+    content: ' Upload logo';
+    display: block;
+    background: -webkit-linear-gradient( -180deg, #ffdc73, #febf01);
+    background: -o-linear-gradient( -180deg, #ffdc73, #febf01);
+    background: -moz-linear-gradient( -180deg, #ffdc73, #febf01);
+    background: linear-gradient( -180deg, #ffdc73, #febf01);
+    border: 3px solid #dca602;
+    border-radius: 10px;
+    padding: 5px 0px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 1px 1px rgba(255,255,255,0.7);
+    font-weight: bold;
+    text-align: center;
+    font-size: 10pt;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.custom-file-input:hover:before {
+    border-color: #febf01;
+}
+    .custom-file-input:active:before {
+    background: #febf01;
+}
+.file-blue:before {
+    content: 'Browse File';
+    background: -webkit-linear-gradient( -180deg, #99dff5, #02b0e6);
+    background: -o-linear-gradient( -180deg, #99dff5, #02b0e6);
+    background: -moz-linear-gradient( -180deg, #99dff5, #02b0e6);
+    background: linear-gradient( -180deg, #99dff5, #02b0e6);
+    border-color: #57cff4;
+    color: #FFF;
+    text-shadow: 1px 1px rgba(000,000,000,0.5);
+}
+.file-blue:hover:before {
+    border-color: #02b0e6;
+}
+.file-blue:active:before {
+    background: #02b0e6;
+}
+
+.boxshow{
+    background-color:#16142E;
+    color: white !important;
+}
+.swal-title{
+    color:white !important
+}
+.swal-text{
+    color:white !important
+
+}
+.swal2-container.swal2-center>.swal2-popup{
+    background-color:#16142E;
+    color: white;
+    border-radius: 15px;
+}
+.rmdp-input{
+    width: 100px !important;
+    height: 48px !important;
+    border: solid 2px wheat !important;
+    background-color: #241E4B !important;
+}
+.css-13cymwt-control{
+    background-color: transparent !important;
+    border: none !important;
+    z-index: 300;
+}
+._3curk{
+    position: fixed !important;
+}
+.calendarContainer{
+    background-color: #16142E !important
+}
+.datepicker-input{
+    height: 35px;
+    width: 125px;
+    border-radius: 0 5px 5px 0px;
+    background-color: #FFF;
+}
+.tttt input{
+    margin-top: 3px;
+    background-color: #585555 !important;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+}

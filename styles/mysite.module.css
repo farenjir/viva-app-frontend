@@ -1,0 +1,103 @@
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(240, 238, 255);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+ 
+}
+
+.header {
+  width: 100%;
+  height: 110px;
+  background-color: transparent;
+  justify-items: baseline;
+  padding-top: 39px;
+  display: flex;
+}
+.logoclass{
+  width: 80%;
+}
+.loginclass{
+  width: 18%;
+  text-align: right;
+}
+.lithclass{
+  width: 10%;
+  text-align: right;
+  padding-top: 11px;
+}
+.lithclass img{
+  width: 19.53px;
+  
+}
+.btnlog{
+  width: 220px;
+  height: 50px;
+  background: url(../public/img/btnlogin.png);
+  border: none;
+  cursor: pointer;
+}
+.btnlog:hover{
+  cursor: pointer;
+}
+.imgcustom{
+  width: 26px !important;
+}
+.slider{
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  
+  padding: 0;
+}
+.imgslider{
+  width: 100%;
+
+}
+.textlunch{
+  width: 100%;
+  text-align: center;
+}
+.textlunch img{
+  height: 52px;
+  width: 100%;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .header {
+    width: 100%;
+    height: 110px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+  }
+  .logoclass{
+    width: 100%;
+  }
+  .loginclass{
+    width: 100%;
+    text-align: center;
+  }
+  .lithclass{
+    width: 100%;
+    text-align: center;
+    padding-top: 11px;
+  }
+ 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {}
